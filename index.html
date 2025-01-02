@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-div">
+        <div class="logo">
+            <img src="1.png" alt="Logo">
+        </div>
+        <div class="title">ROLS Dev</div>
+        <div class="fields">
+            <div class="input-container">
+                <i class="fa fa-user"></i>
+                <input type="text" id="username" placeholder="Username">
+            </div>
+            <div class="input-container">
+                <i class="fa fa-lock"></i>
+                <input type="password" id="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="options">
+            <label><input type="checkbox" id="rememberMe"> Remember me</label>
+            <a href="#" id="forgotPassword">Forgot password?</a>
+        </div><br>
+        <button class="signin-button" onclick="login()">Login</button>
+        <div class="link">
+            <p>Don't have an account? <a href="signup.html" id="signUp">Sign up</a></p>
+        </div><br>
+        <div class="footer">&copy; 2024 Foolish Dev. All rights reserved.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
